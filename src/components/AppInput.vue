@@ -37,6 +37,7 @@ export default {
 .filter{
   width: 50%;
   justify-self: end;
+  position: relative;
   input {
     width: 100%;
     box-sizing: border-box;
@@ -50,8 +51,8 @@ export default {
   .clear {
     position: absolute;
     cursor: pointer;
-    top: 5px;
-    right: 10px;
+    top: 0;
+    right: 0;
     transform: rotate(45deg);
     font-size: 1.5rem;
   }
