@@ -1,0 +1,30 @@
+table {
+  align-self: flex-start;
+  width: 100%;
+  table-layout: fixed;
+
+  thead {
+    background-color: #B89CC9;
+    font-size: 1.5rem;
+  }
+
+  tbody {
+    th, td:first-child {
+      background-color: whitesmoke;
+    }
+
+    td {
+      background-color: #EAE1EF;
+    }
+
+    th, td {
+      text-align: right;
+      font-size: 1.5rem;
+      padding: 0 1rem;
+
+      &:first-child {
+        text-align: left;
+      }
+    }
+  }
+}
